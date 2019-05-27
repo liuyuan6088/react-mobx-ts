@@ -221,6 +221,12 @@ module.exports = {
                         ],
                       },
                     },
+                    {
+                      loader: require.resolve('less-loader'),
+                      options: {
+                        importLoaders: 1,
+                      },
+                    },
                   ],
                 },
                 extractTextPluginOptions
